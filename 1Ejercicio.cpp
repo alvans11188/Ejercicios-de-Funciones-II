@@ -6,12 +6,12 @@ Hallar el area del circulo
 #include<cmath>
 using namespace std;
 int main(){
-	int r;
+	int radio;
 
     cout << "Introduce el radio del circulo: ";
-    cin >> r;
-    double area = M_PI * pow(r, 2);
-    cout << "El area del circulo  " << r << " sera: " << area << endl;
+    cin >> radio;
+    double area = M_PI * pow(radio, 2);
+    cout << "El area del circulo  " << radio << " sera: " << area << endl;
 
     return 0;
 }
