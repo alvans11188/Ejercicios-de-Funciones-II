@@ -9,17 +9,17 @@ rand de la librería cstdlib para generar los números aleatorios.
 #include <ctime>
 using namespace std;
 int main() {
-	int n, nm, i, na;
+	int m, P, i, na;
 	
 	cout << "Ingrese la cantidad de numero aleatorios que desea generar: ";
-	cin >> n;
+	cin >> m;
 	cout << "Ingrese el numero maximo que desea generar: ";
-	cin >> nm;
+	cin >> P;
 	srand(time(0));
 	
-	for (int i=1;i<=n;i++){
+	for (int i=1;i<=m;i++){
 		
-		na = rand() % nm + 1;
+		na = rand() % P + 1;
 		cout << na << endl;
 	}
 	
